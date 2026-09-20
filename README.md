@@ -11,7 +11,7 @@ In this project, a Convolutional Neural Network (CNN) is trained on the German T
 
 The system:
 
-. Loads traffic sign images from the GTSRB dataset <br>
+&bull;Loads traffic sign images from the GTSRB dataset <br>
 . Resizes images to 32 × 32 pixels <br>
 . Normalizes pixel values <br>
 . Applies image augmentation <br>
@@ -19,3 +19,15 @@ The system:
 . Classifies images into 43 traffic sign categories <br>
 . Evaluates the trained model on unseen test data <br>
 . Displays predicted and actual traffic sign labels <br>
+
+🎯 Objectives
+
+The main objectives of this project are:
+
+To develop a traffic sign classification system using Deep Learning.
+To preprocess and normalize traffic sign images.
+To use CNNs for automatic feature extraction and classification.
+To improve model generalization using image augmentation.
+To classify German traffic signs into 43 different categories.
+To evaluate the performance of the trained model using accuracy and loss.
+To visualize predictions made by the trained CNN model.
