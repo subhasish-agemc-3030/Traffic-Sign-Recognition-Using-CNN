@@ -40,8 +40,8 @@ The main objectives of this project are:
 
 📂 **Dataset**
 
-This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
-"/kaggle/input/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign"
+This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.<br>
+"https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign"<br>
 The dataset contains images belonging to 43 different traffic sign classes.
 
 &bull;  Dataset characteristics<br>
