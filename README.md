@@ -140,8 +140,11 @@ Softmax<br>
      ↓<br>
 Traffic Sign Class<br>
 
-**Project Structure**
+## 📁 Project Structure
 
+A recommended GitHub repository structure is:
+
+```text
 traffic-sign-recognition-cnn/
 │
 ├── dataset/
@@ -166,4 +169,5 @@ traffic-sign-recognition-cnn/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
