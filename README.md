@@ -24,10 +24,10 @@ The system:
 
 The main objectives of this project are:
 
-&bull; To develop a traffic sign classification system using Deep Learning.
-&bull; To preprocess and normalize traffic sign images.
-&bull; To use CNNs for automatic feature extraction and classification.
-&bull; To improve model generalization using image augmentation.
-&bull; To classify German traffic signs into 43 different categories.
-&bull; To evaluate the performance of the trained model using accuracy and loss.
-&bull; To visualize predictions made by the trained CNN model.
+1. To develop a traffic sign classification system using Deep Learning.<br>
+2. To preprocess and normalize traffic sign images. <br>
+3. To use CNNs for automatic feature extraction and classification. <br>
+4. To improve model generalization using image augmentation. <br>
+5. To classify German traffic signs into 43 different categories.<br>
+6. To evaluate the performance of the trained model using accuracy and loss. <br>
+7. To visualize predictions made by the trained CNN model. <br>
