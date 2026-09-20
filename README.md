@@ -11,11 +11,11 @@ In this project, a Convolutional Neural Network (CNN) is trained on the German T
 
 The system:
 
-Loads traffic sign images from the GTSRB dataset
-Resizes images to 32 × 32 pixels
-Normalizes pixel values
-Applies image augmentation
-Trains a CNN model
-Classifies images into 43 traffic sign categories
-Evaluates the trained model on unseen test data
-Displays predicted and actual traffic sign labels
+. Loads traffic sign images from the GTSRB dataset
+. Resizes images to 32 × 32 pixels
+. Normalizes pixel values
+. Applies image augmentation
+. Trains a CNN model
+. Classifies images into 43 traffic sign categories
+. Evaluates the trained model on unseen test data
+. Displays predicted and actual traffic sign labels
