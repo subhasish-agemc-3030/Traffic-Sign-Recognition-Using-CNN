@@ -95,3 +95,42 @@ The dataset contains traffic signs such as:
 &bull;  Dangerous curves<br>
 &bull;  Slippery road <br>
 &bull;  And many more <br>
+
+
+🧠 CNN Architecture
+
+The project uses a custom Convolutional Neural Network.
+
+Model architecture
+Input Image
+32 × 32 × 3
+     ↓
+Conv2D
+32 Filters, 3 × 3
+     ↓
+MaxPooling
+     ↓
+Conv2D
+64 Filters, 3 × 3
+     ↓
+MaxPooling
+     ↓
+Conv2D
+128 Filters, 3 × 3
+     ↓
+MaxPooling
+     ↓
+Flatten
+     ↓
+Dense
+256 Neurons
+     ↓
+Dropout
+0.5
+     ↓
+Dense
+43 Neurons
+     ↓
+Softmax
+     ↓
+Traffic Sign Class
