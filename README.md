@@ -64,3 +64,34 @@ The main objectives of this project are:
 </td>
 </tr>
 </table>
+
+
+📂 Dataset
+
+This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
+
+The dataset contains images belonging to 43 different traffic sign classes.
+
+&bull;  Dataset characteristics<br>
+&bull;  Number of classes: 43<br>
+&bull;  Image type: Traffic sign images<br>
+&bull;  Input size: 32 × 32 × 3<br>
+&bull;  Color format: RGB/BGR image data<br>
+&bull;  Task: Multi-class image classification<br>
+
+The dataset contains traffic signs such as:
+
+&bull;  Speed limits<br>
+&bull;  Stop<br>
+&bull;  No entry<br>
+&bull;  Yield<br>
+&bull;  Priority road<br>
+&bull;  No passing<br>
+&bull;  Road work<br>
+&bull;  Pedestrian crossing<br>
+&bull;  Traffic signals<br>
+&bull;  Roundabout<br>
+&bull;  Keep left/right<br>
+&bull;  Dangerous curves<br>
+&bull;  Slippery road <br>
+&bull;  And many more <br>
