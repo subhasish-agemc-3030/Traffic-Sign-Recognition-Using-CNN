@@ -32,7 +32,7 @@ The main objectives of this project are:
 6. To evaluate the performance of the trained model using accuracy and loss. <br>
 7. To visualize predictions made by the trained CNN model. <br>
 
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 <table>
 <tr>
 <td>
@@ -102,35 +102,35 @@ The dataset contains traffic signs such as:
 The project uses a custom Convolutional Neural Network.
 
 **Model Architecture**
-Input Image
-32 × 32 × 3
-     ↓
-Conv2D
-32 Filters, 3 × 3
-     ↓
-MaxPooling
-     ↓
-Conv2D
-64 Filters, 3 × 3
-     ↓
-MaxPooling
-     ↓
-Conv2D
-128 Filters, 3 × 3
-     ↓
-MaxPooling
-     ↓
-Flatten
-     ↓
-Dense
-256 Neurons
-     ↓
-Dropout
-0.5
-     ↓
-Dense
-43 Neurons
-     ↓
-Softmax
-     ↓
-Traffic Sign Class
+Input Image<br>
+32 × 32 × 3<br>
+     ↓<br>
+Conv2D<br>
+32 Filters, 3 × 3<br>
+     ↓<br>
+MaxPooling<br>
+     ↓<br>
+Conv2D<br>
+64 Filters, 3 × 3<br>
+     ↓<br>
+MaxPooling<br>
+     ↓<br>
+Conv2D<br>
+128 Filters, 3 × 3<br>
+     ↓<br>
+MaxPooling<br>
+     ↓<br>
+Flatten<br>
+     ↓<br>
+Dense<br>
+256 Neurons<br>
+     ↓<br>
+Dropout<br>
+0.5<br>
+     ↓<br>
+Dense<br>
+43 Neurons<br>
+     ↓<br>
+Softmax<br>
+     ↓<br>
+Traffic Sign Class<br>
