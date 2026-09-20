@@ -3,7 +3,7 @@
 A Deep Learning-based Traffic Sign Recognition System that classifies German traffic signs into 43 different categories using a Convolutional Neural Network (CNN).
 The project uses Python, TensorFlow/Keras, OpenCV, NumPy, Pandas, and Matplotlib for image processing, model training, evaluation, and visualization.
 
-📌 Project Overview
+📌 **Project Overview**
 
 Traffic sign recognition is an important component of intelligent transportation systems and autonomous driving applications.
 
@@ -20,7 +20,7 @@ The system:
 &bull; Evaluates the trained model on unseen test data <br>
 &bull; Displays predicted and actual traffic sign labels <br>
 
-🎯 Objectives
+🎯 **Objectives**
 
 The main objectives of this project are:
 
@@ -66,7 +66,7 @@ The main objectives of this project are:
 </table>
 
 
-📂 Dataset
+📂 **Dataset**
 
 This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
 
@@ -97,11 +97,11 @@ The dataset contains traffic signs such as:
 &bull;  And many more <br>
 
 
-🧠 CNN Architecture
+🧠 **CNN Architecture**
 
 The project uses a custom Convolutional Neural Network.
 
-Model architecture
+**Model Architecture**
 Input Image
 32 × 32 × 3
      ↓
