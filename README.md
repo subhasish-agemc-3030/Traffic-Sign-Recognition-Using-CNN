@@ -31,3 +31,36 @@ The main objectives of this project are:
 5. To classify German traffic signs into 43 different categories.<br>
 6. To evaluate the performance of the trained model using accuracy and loss. <br>
 7. To visualize predictions made by the trained CNN model. <br>
+
+🛠️ Technologies Used
+<table>
+<tr>
+<td>
+
+###  Technology
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Kaggle
+
+</td>
+<td>
+
+### Purpose
+- Programming language
+- Deep learning framework
+- CNN model development
+- Image processing
+- Numerical operations
+- Dataset handling
+- Visualization
+- Train-test splitting
+- Dataset/training environment
+</td>
+</tr>
+</table>
