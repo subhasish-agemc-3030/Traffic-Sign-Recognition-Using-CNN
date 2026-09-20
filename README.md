@@ -20,6 +20,10 @@ The system:
 &bull; Evaluates the trained model on unseen test data <br>
 &bull; Displays predicted and actual traffic sign labels <br>
 
+
+**Problem Statement**
+ This project is to develop a deep learning-based traffic sign recognition system that can automatically identify and classify traffic signs from images. The system uses OpenCV for image preprocessing and a Convolutional Neural Network (CNN) implemented using TensorFlow/Keras to classify traffic signs into 43 different categories from the GTSRB dataset.
+
 🎯 **Objectives**
 
 The main objectives of this project are:
@@ -31,6 +35,38 @@ The main objectives of this project are:
 5. To classify German traffic signs into 43 different categories.<br>
 6. To evaluate the performance of the trained model using accuracy and loss. <br>
 7. To visualize predictions made by the trained CNN model. <br>
+
+
+
+📂 **Dataset**
+
+This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
+"/kaggle/input/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign"
+The dataset contains images belonging to 43 different traffic sign classes.
+
+&bull;  Dataset characteristics<br>
+&bull;  Number of classes: 43<br>
+&bull;  Image type: Traffic sign images<br>
+&bull;  Input size: 32 × 32 × 3<br>
+&bull;  Color format: RGB/BGR image data<br>
+&bull;  Task: Multi-class image classification<br>
+
+The dataset contains traffic signs such as:
+
+&bull;  Speed limits<br>
+&bull;  Stop<br>
+&bull;  No entry<br>
+&bull;  Yield<br>
+&bull;  Priority road<br>
+&bull;  No passing<br>
+&bull;  Road work<br>
+&bull;  Pedestrian crossing<br>
+&bull;  Traffic signals<br>
+&bull;  Roundabout<br>
+&bull;  Keep left/right<br>
+&bull;  Dangerous curves<br>
+&bull;  Slippery road <br>
+&bull;  And many more <br>
 
 🛠️ **Technologies Used**
 <table>
@@ -64,37 +100,6 @@ The main objectives of this project are:
 </td>
 </tr>
 </table>
-
-
-📂 **Dataset**
-
-This project uses the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
-
-The dataset contains images belonging to 43 different traffic sign classes.
-
-&bull;  Dataset characteristics<br>
-&bull;  Number of classes: 43<br>
-&bull;  Image type: Traffic sign images<br>
-&bull;  Input size: 32 × 32 × 3<br>
-&bull;  Color format: RGB/BGR image data<br>
-&bull;  Task: Multi-class image classification<br>
-
-The dataset contains traffic signs such as:
-
-&bull;  Speed limits<br>
-&bull;  Stop<br>
-&bull;  No entry<br>
-&bull;  Yield<br>
-&bull;  Priority road<br>
-&bull;  No passing<br>
-&bull;  Road work<br>
-&bull;  Pedestrian crossing<br>
-&bull;  Traffic signals<br>
-&bull;  Roundabout<br>
-&bull;  Keep left/right<br>
-&bull;  Dangerous curves<br>
-&bull;  Slippery road <br>
-&bull;  And many more <br>
 
 
 🧠 **CNN Architecture**
@@ -134,3 +139,31 @@ Dense<br>
 Softmax<br>
      ↓<br>
 Traffic Sign Class<br>
+
+**Project Structure**
+
+traffic-sign-recognition-cnn/
+│
+├── dataset/
+│   └── GTSRB/
+│
+├── notebooks/
+│   └── traffic_sign_recognition.ipynb
+│
+├── model/
+│   └── traffic_sign_model.h5
+│
+├── images/
+│   ├── sample_predictions.png
+│   ├── accuracy.png
+│   ├── loss.png
+│   └── traffic_signs.png
+│
+├── src/
+│   ├── train.py
+│   └── predict.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
